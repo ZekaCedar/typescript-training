@@ -1,7 +1,12 @@
+"use strict";
 var Customer = /** @class */ (function () {
-    function Customer(theFirst, theLast) {
-        this._firstName = theFirst;
-        this._lastName = theLast;
+    // private _firstName: string;
+    // private _lastName: string;
+    function Customer(_firstName, _lastName) {
+        this._firstName = _firstName;
+        this._lastName = _lastName;
+        // this._firstName = theFirst;
+        // this._lastName = theLast;
     }
     Object.defineProperty(Customer.prototype, "firstName", {
         get: function () {
